@@ -134,17 +134,14 @@ For more than a decade, the Agile development process has seeped into the lives 
 \maketitle
 
 \section{Introduction}
-Agile is a software development process. It has revolutionized software development, shifting some companies and projects from a plan-first-code-after-and-repeat life cycle, to a "satisfy customers-at the time of delivery, not at project initiation" life cycle, as described by \cite{Highsmith01}. 
+Agile development considers an element crucial to all software processes in a uniquely different manner: customers as team members. The basis of all software development is planning out a project from start to end, but requirements are prone to change when considering the fluctuating world of technology. Agile handles change by valuing the people involved, customers and developers \cite{Highsmith01}. By interfacing with customers frequently, and considering their changing requests as the project progresses, change is a byproduct. However, the success of Agile is reliant on what Cockburn and Highsmith call "responsive people and organizations" as well as "[focusing] on the talents and skills of individuals" \cite{Cockburn01}. As a result, teamwork and communication become unavoidably ensconsed in the agile process.
 In this work, we first introduce a quick overview of Agile, delve into teamwork in agile, and then widen our scope to teamwork between teams in agile. Second, we discuss the importance of design and architecture within teams, where we highlight the ways they affect teamwork both positively and negatively.
 
-\section{Agile}
-Agile development considers an element crucial to all software processes in a uniquely different manner: customers as team members. The basis of all software development is planning out a project from start to end, but requirements are prone to change when considering the fluctuating world of technology. Agile handles change by valuing the people involved, customers and developers \cite{Highsmith01}. By interfacing with customers frequently, and considering their changing requests as the project progresses, change is a byproduct. However, the success of Agile is reliant on what Cockburn and Highsmith call "responsive people and organizations" as well as "[focusing] on the talents and skills of individuals" \cite{Cockburn01}. As a result, teamwork and communication become unavoidably ensconsed in the agile process.
-
-\subsection{Teams in Agile}
+\section{Teams in Agile}
 A single team in agile consists of the product owner, the scrum master, and the developers. In order for their team to be successful, they must "have a common focus, mutual trust, and respect," be "collarborative, but speedy [in their] decision-making process" and be adept at handling ambiguity \cite{Cockburn01}. The Agile Manifesto reinforces these attributes by valuing customer collaboration and responding to change over contracts and plans \cite{Beck01}. Daily stand-ups incite communication, updating each other on task statuses, and conveying problems if they exist. Depending on the needs that follow the stand-up, the team will respond accordingly. e.g, team members may pair up to get a difficult or time sensitive task done.
 
-\subsection{Multiple Teams in Agile}
-
+\subsection{Scaling Up Teams in Agile}
+As projects scale up, so does the number of teams. When considering this in an agile workspace, there is more work that must go into ensuring that teams themselves can collaborate effectively. If teams are in the same location, then promoting a collaborative environment is key. However, teams across more than one location must account for different cultures and providing as much possibility for communication as possible \cite{Joshi12}. Distance increases the potential for misunderstandings. Other recommendations include having a single product backlog \cite{Zalavadia16}, cross-team daily stand-ups (and other cross-team activities) \cite{GSATech}, and having communities of practice \cite{Crocker18}. Each of these suggestions tackles a unique but very real and potential problem that occurs in large scale agile practices. Having a single product backlog allows all teams to see the whole picture, and see where work is needed. Cross-team activities allows for a deeper understanding of the project and each team's accomplishments and troubles. Finally, communities of practices creates a valuable way to share information about relevant topics from other perspectives.
 
 \section{Design and Architecture in Agile}
 \subsection{Design}
@@ -177,84 +174,6 @@ So does ``Agile need Architecture to be Successful? '' I would say the better qu
 \section{Conclusion}
 In conclusion...
 
-\subsection{Template Parameters}
-
-In addition to specifying the {\it template style} to be used in formatting your work, there are a number of {\it template parameters} which modify some part of the applied template style. A complete list of these parameters can be found in the {\it \LaTeX\ User's Guide.}
-
-Frequently-used parameters, or combinations of parameters, include:
-\begin{itemize}
-\item {\verb|anonymous,review|}: Suitable for a ``double-blind'' conference submission. Anonymizes the work and includes line numbers. Use with the \verb|\acmSubmissionID| command to print the submission's unique ID on each page of the work.
-\item{\verb|authorversion|}: Produces a version of the work suitable for posting by the author.
-\item{\verb|screen|}: Produces colored hyperlinks.
-\end{itemize}
-
-This document uses the following string as the first command in the source file: \verb|\documentclass[sigconf,screen]{acmart}|.
-
-\section{Tables}
-
-The ``\verb|acmart|'' document class includes the ``\verb|booktabs|'' package --- \url{https://ctan.org/pkg/booktabs} --- for preparing high-quality tables. 
-
-Table captions are placed {\it above} the table.
-
-Because tables cannot be split across pages, the best placement for them is typically the top of the page nearest their initial cite.  To ensure this proper ``floating'' placement of tables, use the environment \textbf{table} to enclose the table's contents and the table caption.  The contents of the table itself must go in the \textbf{tabular} environment, to be aligned properly in rows and columns, with the desired horizontal and vertical rules.  Again, detailed instructions on \textbf{tabular} material are found in the \textit{\LaTeX\ User's Guide}.
-
-Immediately following this sentence is the point at which Table~\ref{tab:freq} is included in the input file; compare the placement of the table here with the table in the printed output of this document.
-
-\begin{table}
-  \caption{Frequency of Special Characters}
-  \label{tab:freq}
-  \begin{tabular}{ccl}
-    \toprule
-    Non-English or Math&Frequency&Comments\\
-    \midrule
-    \O & 1 in 1,000& For Swedish names\\
-    $\pi$ & 1 in 5& Common in math\\
-    \$ & 4 in 5 & Used in business\\
-    $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
-  \bottomrule
-\end{tabular}
-\end{table}
-
-To set a wider table, which takes up the whole width of the page's live area, use the environment \textbf{table*} to enclose the table's contents and the table caption.  As with a single-column table, this wide table will ``float'' to a location deemed more desirable. Immediately following this sentence is the point at which Table~\ref{tab:commands} is included in the input file; again, it is instructive to compare the placement of the table here with the table in the printed output of this document.
-
-\begin{table*}
-  \caption{Some Typical Commands}
-  \label{tab:commands}
-  \begin{tabular}{ccl}
-    \toprule
-    Command &A Number & Comments\\
-    \midrule
-    \texttt{{\char'134}author} & 100& Author \\
-    \texttt{{\char'134}table}& 300 & For tables\\
-    \texttt{{\char'134}table*}& 400& For wider tables\\
-    \bottomrule
-  \end{tabular}
-\end{table*}
-
-\section{Figures}
-
-The ``\verb|figure|'' environment should be used for figures. One or more images can be placed within a figure. If your figure contains third-party material, you must clearly identify it as such, as shown in the example below.
-%\begin{figure}[h]
-%  \centering
-%  \includegraphics[width=\linewidth]{sample-franklin}
-%  \caption{1907 Franklin Model D roadster. Photograph by Harris \& Ewing, Inc. [Public domain], via Wikimedia Commons. (\url{https://goo.gl/VLCRBB}).}
-%  \Description{The 1907 Franklin Model D roadster.}
-%\end{figure}
-
-Your figures should contain a caption which describes the figure to the reader. Figure captions go below the figure. Your figures should {\bf also} include a description suitable for screen readers, to assist the visually-challenged to better understand your work.
-
-Figure captions are placed {\it below} the figure.
-
-\subsection{The ``Teaser Figure''}
-
-A ``teaser figure'' is an image, or set of images in one figure, that are placed after all author and affiliation information, and before the body of the article, spanning the page. If you wish to have such a figure in your article, place the command immediately before the \verb|\maketitle| command:
-\begin{verbatim}
-  \begin{teaserfigure}
-    \includegraphics[width=\textwidth]{sampleteaser}
-    \caption{figure caption}
-    \Description{figure description}
-  \end{teaserfigure}
-\end{verbatim}
 
 %
 % The next two lines define the bibliography style to be used, and the bibliography file.

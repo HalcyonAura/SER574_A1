@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{3}
+\begin{thebibliography}{7}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,19 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Alia~Crocker}{Alia~Crocker}{2018}]%
+        {Crocker18}
+\bibfield{author}{\bibinfo{person}{Heidi K.~Gardner Alia~Crocker, Rob~Cross}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{How to Make Sure Agile Teams Can Work Together}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://hbr.org/2018/05/how-to-make-sure-agile-teams-can-work-together}
+\showURL{%
+Retrieved January 20, 2019 from \tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Highsmith}{Highsmith}{2001}]%
         {Cockburn01}
 \bibfield{author}{\bibinfo{person}{Alistair Cockburn~Jim Highsmith}.}
@@ -67,6 +80,20 @@
 \showDOI{\tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Joshi}{Joshi}{2012}]%
+        {Joshi12}
+\bibfield{author}{\bibinfo{person}{Sandeep Joshi}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{title}{Agile Development - Working with Agile in a
+  Distributed Team Environment}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{http://www.agilemanifesto.org/}
+\showURL{%
+Retrieved January 20, 2019 from \tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Kent~Beck}{Kent~Beck}{2001}]%
         {Beck01}
 \bibfield{author}{\bibinfo{person}{Arie van Bennekum Alistair Cockburn Ward
@@ -79,6 +106,33 @@
 \newblock
 \urldef\tempurl%
 \url{http://www.agilemanifesto.org/}
+\showURL{%
+Retrieved January 18, 2019 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Tech}{Tech}{[n. d.]}]%
+        {GSATech}
+\bibfield{author}{\bibinfo{person}{GSA Tech}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{Collaboration Across Agile Teams}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://tech.gsa.gov/guides/Collaboration_Across_Agile_Teams/}
+\showURL{%
+Retrieved January 20, 2019 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zalavadia}{Zalavadia}{2016}]%
+        {Zalavadia16}
+\bibfield{author}{\bibinfo{person}{Sanjay Zalavadia}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{Techniques to scale agile across project teams and
+  organizations}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.getzephyr.com/insights/techniques-scale-agile-across-project-teams-and-organizations}
 \showURL{%
 Retrieved January 18, 2019 from \tempurl}
 
