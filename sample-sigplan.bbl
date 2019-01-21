@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{7}
+\begin{thebibliography}{11}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -50,6 +50,32 @@
 Retrieved January 20, 2019 from \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Ambler}{Ambler}{[n. d.]}]%
+        {AgileDesignPrac}
+\bibfield{author}{\bibinfo{person}{Scot~W Ambler}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{Agile Design}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.agilemodeling.com/essays/agileDesign.htm}
+\showURL{%
+Retrieved January 20, 2019 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Comte}{Comte}{[n. d.]}]%
+        {EnterpriseArch}
+\bibfield{author}{\bibinfo{person}{Scott Comte}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{Does Agile need Architecture to be successful?}
+\newblock
+\newblock
+\urldef\tempurl%
+\url{http://enterprisearchitects.com/does-agile-need-architecture-to-be-successful/}
+\showURL{%
+Retrieved January 20, 2019 from \tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Highsmith}{Highsmith}{2001}]%
         {Cockburn01}
 \bibfield{author}{\bibinfo{person}{Alistair Cockburn~Jim Highsmith}.}
@@ -89,7 +115,7 @@ Retrieved January 20, 2019 from \tempurl}
 \newblock
 \newblock
 \urldef\tempurl%
-\url{http://www.agilemanifesto.org/}
+\url{https://msdn.microsoft.com/en-us/magazine/hh771057.aspx}
 \showURL{%
 Retrieved January 20, 2019 from \tempurl}
 
@@ -108,6 +134,33 @@ Retrieved January 20, 2019 from \tempurl}
 \url{http://www.agilemanifesto.org/}
 \showURL{%
 Retrieved January 18, 2019 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Peters}{Peters}{[n. d.]}]%
+        {AgileDesignProc}
+\bibfield{author}{\bibinfo{person}{Sven Peters}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{Agile Design-Process and guidelines for collaborative
+  design}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.atlassian.com/agile/design}
+\showURL{%
+Retrieved January 20, 2019 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pliego}{Pliego}{2018}]%
+        {SoftArchAgile}
+\bibfield{author}{\bibinfo{person}{Carlos Pliego}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Software Architecture: In an agile environment}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/@carlospliego/agile-software-development-and-architecture-3dbb243fcbd2}
+\showURL{%
+Retrieved January 20, 2019 from \tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Tech}{Tech}{[n. d.]}]%

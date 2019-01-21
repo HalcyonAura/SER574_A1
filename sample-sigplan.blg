@@ -150,6 +150,8 @@ while executing---line 2786 of file ACM-Reference-Format.bst
 Too many commas in name 1 of "Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, Dave Thomas" for entry Beck01
 while executing---line 2786 of file ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty year in AgileDesignPrac
+Warning--empty year in EnterpriseArch
 Too many commas in name 1 of "Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, Dave Thomas" for entry Beck01
 while executing---line 2884 of file ACM-Reference-Format.bst
 Too many commas in name 1 of "Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, Dave Thomas" for entry Beck01
@@ -234,46 +236,47 @@ Too many commas in name 1 of "Kent Beck, Mike Beedle, Arie van Bennekum, Alistai
 while executing---line 2884 of file ACM-Reference-Format.bst
 Too many commas in name 1 of "Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, Dave Thomas" for entry Beck01
 while executing---line 2884 of file ACM-Reference-Format.bst
+Warning--empty year in AgileDesignProc
 Warning--empty year in GSATech
-You've used 7 entries,
+You've used 11 entries,
             5719 wiz_defined-function locations,
-            1490 strings with 17752 characters,
-and the built_in function-call counts, 6305 in all, are:
-= -- 819
-> -- 158
+            1511 strings with 18390 characters,
+and the built_in function-call counts, 9103 in all, are:
+= -- 1104
+> -- 238
 < -- 0
-+ -- 43
-- -- 64
-* -- 365
-:= -- 670
-add.period$ -- 35
-call.type$ -- 7
-change.case$ -- 36
-chr.to.int$ -- 7
-cite$ -- 8
-duplicate$ -- 554
-empty$ -- 398
-format.name$ -- 68
-if$ -- 1451
++ -- 63
+- -- 96
+* -- 530
+:= -- 1014
+add.period$ -- 55
+call.type$ -- 11
+change.case$ -- 56
+chr.to.int$ -- 11
+cite$ -- 15
+duplicate$ -- 802
+empty$ -- 584
+format.name$ -- 100
+if$ -- 2059
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 8
-newline$ -- 122
-num.names$ -- 56
-pop$ -- 178
+newline$ -- 170
+num.names$ -- 88
+pop$ -- 307
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 131
 quote$ -- 0
-skip$ -- 209
+skip$ -- 295
 stack$ -- 0
-substring$ -- 477
-swap$ -- 51
+substring$ -- 632
+swap$ -- 71
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 182
-warning$ -- 1
-while$ -- 62
+type$ -- 302
+warning$ -- 4
+while$ -- 94
 width$ -- 0
-write$ -- 179
+write$ -- 259
 (There were 112 error messages)
