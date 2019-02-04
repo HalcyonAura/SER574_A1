@@ -15,8 +15,8 @@
 \copyrightyear{2018}
 \acmYear{2018}
 \setcopyright{acmlicensed}
-\acmConference[Woodstock '18]{Woodstock '18: ACM Symposium on Neural Gaze Detection}{June 03--05, 2018}{Woodstock, NY}
-\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection, June 03--05, 2018, Woodstock, NY}
+\acmConference[SER574 '19]{SER574 ’19: Assignment 1}{January 20, 2019}{Phoenix, AZ}
+\acmBooktitle{SER574 ’19: Assignment 1, January 20, 2019, Phoenix, AZ}
 \acmPrice{15.00}
 \acmDOI{10.1145/1122445.1122456}
 \acmISBN{978-1-4503-9999-9/18/06}
@@ -75,7 +75,7 @@
 %
 % The abstract is a short summary of the work to be presented in the article.
 \begin{abstract}
-For more than a decade, the Agile development process has seeped into the lives of software developers and customers, changing the way projects are planned, how teammembers and teams interact, and how customers receive their product. Agile is a teamwork heavy process, demanding superb communication and technical skills to develop projects where requirements can change the flow of the project between sprints. Similiarly, multi-team agile projects need to consider team management and team communication, as well as using distinct architectures and designs. 
+For more than a decade, the Agile development process has seeped into the lives of software developers and customers, changing the way projects are planned, how teammembers and teams interact, and how customers receive their product. Agile is a teamwork heavy process, demanding superb communication and technical skills to develop projects where requirements can change the flow of the project between sprints. Similiarly, large scale projects need to consider large team management and team communication, as well as using distinct architectures and designs. 
 \end{abstract}
 
 %
@@ -123,14 +123,16 @@ For more than a decade, the Agile development process has seeped into the lives 
 \maketitle
 
 \section{Introduction}
-Agile development considers an element crucial to all software processes in a uniquely different manner: customers as team members. The basis of all software development is planning out a project from start to end, but requirements are prone to change when considering the fluctuating world of technology. Agile handles change by valuing the people involved, customers and developers \cite{Highsmith01}. By interfacing with customers frequently, and considering their changing requests as the project progresses, change is a byproduct. However, the success of Agile is reliant on what Cockburn and Highsmith call "responsive people and organizations" as well as "[focusing] on the talents and skills of individuals" \cite{Cockburn01}. As a result, teamwork and communication become unavoidably ensconsed in the agile process.
-In this work, we first, introduce a quick overview of Agile and agile teams in order to discuss multi-team projects in agile. Second, we discuss the different architectures used alongside these projects and design considerations.
+The nature of agile development allows for a collaborative development environment by involving customers as team members. The basis of all software development is planning out a project from start to end, but requirements are prone to change when considering the fluctuating world of technology. However, technology is rapidly expanding, and as a result, agile must also change to handle larger team sizes or handling multiple teams. While agile is great at handling change, a scaled implementation must still handle change by valuing the people involved, customers and developers \cite{Highsmith01}. Furthermore, it must still be reliant on what Cockburn and Highsmith call "responsive people and organizations" as well as "[focusing] on the talents and skills of individuals" \cite{Cockburn01}. 
+
+To observe and analyze how agile has adapted to scaling technology and teams, we will first, discuss teams in agile and how they scale. Second, we will discuss the different architectures used alongside these projects and design considerations.
+
 
 \section{Teams in Agile}
-A single team in agile consists of the product owner, the scrum master, and the developers. In order for their team to be successful, they must "have a common focus, mutual trust, and respect," be "collarborative, but speedy [in their] decision-making process" and be adept at handling ambiguity \cite{Cockburn01}. The Agile Manifesto reinforces these attributes by valuing customer collaboration and responding to change over contracts and plans \cite{Beck01}. Daily stand-ups incite communication, updating each other on task statuses, and conveying problems if they exist. Depending on the needs that follow the stand-up, the team will respond accordingly. e.g, team members may pair up to get a difficult or time sensitive task done.
+A single team in agile consists of the product owner, the scrum master, and the developers. Successful teams must "have a common focus, mutual trust, and respect," be "collarborative, but speedy [in their] decision-making process" and be adept at handling ambiguity \cite{Cockburn01}. The Agile Manifesto encourages these attributes by valuing customer collaboration and responding to change over contracts and plans \cite{Beck01}. Daily stand-ups incite communication, updating each other on task statuses, and conveying problems if they exist. Depending on the needs that follow the stand-up, the team will respond accordingly. For example, team members may pair up to get a difficult or time sensitive task done.
 
 \subsection{Scaling Up Teams in Agile}
-As projects scale up, so does the number of teams. When considering this in an agile workspace, there is more work that must go into ensuring that teams themselves can collaborate effectively. If teams are in the same location, then promoting a collaborative environment is key. However, teams across more than one location must account for different cultures and providing as much possibility for communication as possible \cite{Joshi12}. Distance increases the potential for misunderstandings. Other recommendations include having a single product backlog \cite{Zalavadia16}, cross-team daily stand-ups (and other cross-team activities) \cite{GSATech}, and having communities of practice \cite{Crocker18}. Each of these suggestions tackles a unique but very real and potential problem that occurs in large scale agile practices. Having a single product backlog allows all teams to see the whole picture, and see where work is needed. Cross-team activities allows for a deeper understanding of the project and each team's accomplishments and troubles. Finally, communities of practices creates a valuable way to share information about relevant topics from other perspectives.
+As projects scale up, so does the number of teams. When considering this in an agile environment, there is more work that must go into ensuring that teams themselves can collaborate effectively. This can be accomplished by being in the same location. However, teams across multiple locations must account for different cultures and providing as much communication as possible \cite{Joshi12}. Distance increases the potential for misunderstandings. Other recommendations include having a single product backlog as mentioned by Zalavadia \cite{Zalavadia16}, cross-team daily stand-ups (and other cross-team activities) as suggested by GSATech \cite{GSATech}, and having communities of practice as discussed by Crocker \cite{Crocker18}. Each of these suggestions tackles a potential problem in large scale agile practices from cultural disagreements, to knowledge silos, to miscommunication. Having a single product backlog allows all teams to see the whole picture, and see where work is needed. Cross-team activities allows for a deeper understanding of the project and each team's accomplishments and troubles. Finally, communities of practices creates a valuable way to share information about relevant topics from other perspectives.
 
 \section{Design and Architecture in Agile}
 \subsection{Architecture}
